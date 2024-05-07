@@ -16,7 +16,7 @@ function App() {
     const dataFetch = async () => {
       var res = await (
         await fetch(
-          'https://docs.google.com/spreadsheets/d/e/2PACX-1vSiQYKdJisuLcFg0vydiJGGwYTI6wv1SoWVMPECybZhtrkWm4Zsme2yAPeKfKSzkJXBsESxtY60oSrN/pub?gid=574938590&single=true&output=csv'
+          'https://docs.google.com/spreadsheets/d/e/2PACX-1vR8lYl1nsSky2wAyXJPdIzWyxrLqKYX8GAAPNdavVFDv-VHhzi9hQcgp8n85aUp5UCak91xEnh_NGGL/pub?gid=574938590&single=true&output=csv'
         )
       ).blob().then(b => b.text());
 
@@ -29,8 +29,7 @@ function App() {
          results.data[0]['S4'],
          results.data[0]['S5'],
          results.data[0]['S6'],
-         results.data[0]['S7'],        
-         results.data[0]['S8']];
+         results.data[0]['S7']];        
         setCardData(data);
       }
     };
@@ -70,8 +69,6 @@ function App() {
       return '15 luglio\n19 luglio';
     if(index === 7)
       return '22 luglio\n26 luglio';
-    if(index === 8)
-      return '29 luglio\n2 agosto';
     return '';
   }
 
@@ -79,7 +76,7 @@ function App() {
   return (
     <div className="App">
       <Box style={styles.logoContainer}>
-        <img src="https://i.ibb.co/TKvrMsq/Logo-CRE.png" alt="Logo" style={{width: 200}}/>
+        <img src="https://i.ibb.co/sbwQ9Jy/summertime-2024-1.png" alt="Logo" style={{width: 200}}/>
       </Box>
       <Box style={styles.cardContainer}>
         {cardData.map((card, index) => (
@@ -99,7 +96,7 @@ function App() {
         ))}
       </Box>
       <Box>
-        <Button style={{marginTop: 20}} href="https://forms.gle/fBHyAVrmFGTqKgVv6" variant="contained" disabled = {false}>VAI AL MODULO DI ISCRIZIONE</Button>
+        <Button style={{marginTop: 20}} href="https://forms.gle/ndP4Va1oVTPeH2RV8" variant="contained" disabled = {false}>VAI AL MODULO DI ISCRIZIONE</Button>
       </Box>
       <Box>
       <Button style={{marginTop: 20}} href="https://forms.gle/aJTkQ9Z5pRf1BRfP9" variant="contained" disabled = {true}>VAI AL MODULO DI AGGIUNTA SETTIMANE (solo per utenti già iscritti)</Button>
