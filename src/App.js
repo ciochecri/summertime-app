@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   const [cardData, setCardData] = useState([]);
 
-  const MAX_NUM = 72;
+  const MAX_NUM = 53;
 
 
   useEffect(() => {
@@ -43,7 +43,7 @@ function App() {
       return '#282c34';
     if(numberRemaining < 10)
       return '#eb9694';
-    if(numberRemaining < 30)
+    if(numberRemaining < 20)
       return '#fef3bd'; 
     return '#c1e1c5'; 
   }
@@ -96,10 +96,10 @@ function App() {
         ))}
       </Box>
       <Box>
-        <Button style={{marginTop: 20}} href="https://forms.gle/ndP4Va1oVTPeH2RV8" variant="contained" disabled = {false}>VAI AL MODULO DI ISCRIZIONE</Button>
+        <Button style={{marginTop: 20, maxWidth: 300}} href="https://forms.gle/ndP4Va1oVTPeH2RV8" variant="contained" disabled = {false}>VAI AL MODULO DI ISCRIZIONE</Button>
       </Box>
       <Box>
-      <Button style={{marginTop: 20}} href="https://forms.gle/aJTkQ9Z5pRf1BRfP9" variant="contained" disabled = {true}>VAI AL MODULO DI AGGIUNTA SETTIMANE (solo per utenti già iscritti)</Button>
+        <Button style={{marginTop: 20, maxWidth: 300}} href="https://forms.gle/tTJQkkdt2qyV5A9M7" variant="contained" disabled = {true}>VAI AL MODULO DI AGGIUNTA SETTIMANE (solo per utenti già iscritti)</Button>
       </Box>
     </div>
   );
