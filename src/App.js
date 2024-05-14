@@ -10,7 +10,7 @@ function App() {
   const [cardData, setCardData] = useState([]);
 
   const MAX_NUM = 53;
-  const OFFSET = 53;
+  const OFFSET = 10;
 
 
   useEffect(() => {
