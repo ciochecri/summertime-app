@@ -10,7 +10,7 @@ function App() {
   const [cardData, setCardData] = useState([]);
 
   const MAX_NUM = 53;
-  const OFFSET = Math.max(0, Math.round((new Date("06/06/2024").getTime() - new Date().getTime())/ (1000 * 3600 * 24)));
+  const OFFSET = 0; //Math.max(0, Math.round((new Date("06/06/2024").getTime() - new Date().getTime())/ (1000 * 3600 * 24)));
 
 
   useEffect(() => {
@@ -106,7 +106,7 @@ function App() {
             <Button endIcon={<Send />} style={{marginTop: 20, width: 300}} href="https://forms.gle/ndP4Va1oVTPeH2RV8" variant="contained" disabled = {false}>MODULO DI ISCRIZIONE</Button>
           </Box>
           <Box>
-            <Button endIcon={<Send />} style={{marginTop: 20, width: 300}} href="https://forms.gle/tTJQkkdt2qyV5A9M7" variant="contained" disabled = {true}>MODULO DI AGGIUNTA SETTIMANE (solo per utenti già iscritti)</Button>
+            <Button endIcon={<Send />} style={{marginTop: 20, width: 300}} href="https://forms.gle/tTJQkkdt2qyV5A9M7" variant="contained" disabled = {false}>MODULO DI AGGIUNTA SETTIMANE (solo per utenti già iscritti)</Button>
           </Box>
         </Box>
         <Box style={styles.downloadsContainer}>
