@@ -108,6 +108,9 @@ function App() {
           <Box>
             <Button endIcon={<Send />} style={{marginTop: 20, width: 300}} href="https://forms.gle/tTJQkkdt2qyV5A9M7" variant="contained" disabled = {false}>MODULO DI AGGIUNTA SETTIMANE (solo per utenti già iscritti)</Button>
           </Box>
+          <Box>
+            <Button endIcon={<Send />} style={{marginTop: 20, width: 300}} href="https://forms.gle/3YgbK8jzjBKRFKHN9" variant="contained" disabled = {false}>questionario di gradimento</Button>
+          </Box>
         </Box>
         <Box style={styles.downloadsContainer}>
           <Typography variant='text.secondary' gutterBottom>
@@ -161,7 +164,7 @@ const styles = StyleSheet.create({
     margin: 20,
     border: "1px solid black",
     padding: 10,
-    height: 200
+    height: 250
   },
   downloadsContainer: {
     width: 350,
