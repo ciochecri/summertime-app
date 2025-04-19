@@ -1,0 +1,18 @@
+{
+  "title": "DAL 9 GIUGNO AL 25 LUGLIO! SEI DEI NOSTRI? ",
+  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "button": [
+    {
+      "title": "Vai al modulo di iscrizione",
+      "color": "#fff",
+      "disabled" : true,
+      "href" : "https://forms.gle/ndP4Va1oVTPeH2RV8"
+    },
+    {
+      "title": "Vai al modulo di aggiunta settimane",
+      "color": "#fff",
+      "disabled" : true,
+      "href" : "https://forms.gle/tTJQkkdt2qyV5A9M7"
+    }
+  ]
+}
