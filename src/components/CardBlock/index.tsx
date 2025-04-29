@@ -75,14 +75,13 @@ const CardBlock = ({ t }: CardBlockProps) => {
       });
 
       if(results?.data[0]){
-        /*const data = [results.data[0]['S1'],
+        const data = [results.data[0]['S1'],
          results.data[0]['S2'],
          results.data[0]['S3'],
          results.data[0]['S4'],
          results.data[0]['S5'],
          results.data[0]['S6'],
-         results.data[0]['S7']];*/
-         const data = [0, 0, 0, 0, 0, 0, 0]
+         results.data[0]['S7']];
         setCardData(data);
       }
     };
