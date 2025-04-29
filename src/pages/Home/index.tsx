@@ -31,21 +31,21 @@ const Home = () => {
         direction="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="placeholder.svg"
+        icon="cosa-facciamo.png"
         id="attivita"
       />
       <ContentBlock
         direction="left"
         title={DoveAndiamo.title}
         content={DoveAndiamo.text}
-        icon="placeholder.svg"
+        icon="dove-andiamo.png"
         id="attivita2"
       />
       <ContentBlock
         direction="right"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="placeholder.svg"
+        icon="cosa-mangiamo.png"
         id="menu"
       />
       

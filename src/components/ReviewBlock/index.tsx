@@ -46,12 +46,12 @@ const ReviewBlock = ({ t }: ReviewBlockProps) => {
           </Row>
           <Row justify="space-between" align="middle">
             <Col lg={12} md={11} sm={24} xs={24}>
-              <ReviewItem text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."/>
-              <ReviewItem text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."/>
+              <ReviewItem text="Ci eravamo già trovati bene lo scorso anno, ma quest'anno siamo stati ancora più contenti. Abbiamo apprezzato molto le destinazioni delle gite e i laboratori. Il personale ci è parso accogliente e attento. Nostro figlio è rimasto incuriosito dalla pallamano e si è sempre divertito molto. Grazie."/>
+              <ReviewItem text="Innanzitutto complimenti e grazie, un bellissimo programma che auspico di ritrovare confermato l'anno prossimo. Se mi dovessi sforzare per inserire un consiglio proporrei di inserire nel progetto le prime due settimane di setembre, famiglie spesso rientrate dai piani vacanze e magari con un ripasso dei programmi scolatici, anche di gruppo. Saluti"/>
             </Col>
             <Col lg={12} md={12} sm={24} xs={24}>
-              <ReviewItem text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."/>
-              <ReviewItem text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."/>
+              <ReviewItem text="Nessun consiglio, solo complimenti per aver fatto passare a mio figlio un’estate super divertente e in compagnia! Grazie, vi faremo come sempre una gran pubblicità, ci vediamo l’anno prossimo!"/>
+              <ReviewItem text="Siamo stati davvero molto contenti di aver partecipato al campo estivo! Torneremo sicuramente il prossimo anno e lo consiglieremo ai nostri amici! Ringraziamo tutto lo staff per la professionalità e per tutte le belle esperienze vissute insieme! Se ci fosse la possibilità di poter usufruire del servizio anche a settembre sarebbe meraviglioso!!! Grazie ragazzi!!!"/>
             </Col>
           </Row>
         </Col>
