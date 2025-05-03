@@ -4,9 +4,9 @@
   "button": [
     {
       "title": "Vai al modulo di iscrizione",
-      "color": "#fff",
-      "disabled" : true,
-      "href" : "https://forms.gle/ndP4Va1oVTPeH2RV8"
+      "color": "#a7148d",
+      "disabled" : false,
+      "href" : "https://forms.gle/B7SFDEfD7a3vBj5G6"
     },
     {
       "title": "Vai al modulo di aggiunta settimane",
