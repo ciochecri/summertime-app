@@ -18,6 +18,10 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
+      {/*<MiddleBlock
+        title={MiddleBlockContent.title}
+        content={MiddleBlockContent.text}
+      />*/}
       <ContentBlock
         direction="left"
         title={IntroContent.title}
@@ -26,6 +30,13 @@ const Home = () => {
         icon="placeholder.svg"
         id="intro"
         cards={true}
+      />
+      <ContentBlock
+        direction="left"
+        title={MiddleBlockContent.title}
+        content={MiddleBlockContent.text}
+        icon="a-chi-e-rivolto.png"
+        id="achierivolto"
       />
       <ContentBlock
         direction="right"

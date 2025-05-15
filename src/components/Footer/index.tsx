@@ -68,7 +68,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Title>Centro estivo</Title>
               <Large href="https://drive.google.com/uc?export=download&id=1HP3WvzC7an0NxUvw82d4D-Rt6H14G9zB">Volantino</Large>
               <Large href="https://drive.google.com/uc?export=download&id=1v7JEveQcf-W8LTx3tXYkxWVxtqTjglhy">Regolamento</Large>
-              <Large href="https://drive.google.com/uc?export=download&id=14c9a7CCPMZE4KCXY9bNWJyEKdi_dq8IV">Presentazione</Large>
+              <Large href="https://drive.google.com/uc?export=download&id=12aDzt8-AP3TpH052R5D2uCdsf5kmN-j0">Presentazione</Large>
             </Col>
           </Row>
         </Container>

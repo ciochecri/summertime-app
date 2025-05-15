@@ -3,19 +3,24 @@ import styled from "styled-components";
 
 export const ContentSection = styled("section")`
   position: relative;
-  padding: 4rem 0 4rem;
+  padding: 2rem 0 2rem;
 
   @media only screen and (max-width: 1024px) {
-    padding: 3rem 0 3rem;
+    padding: 1.5rem 0 1.5rem;
   }
 
   @media only screen and (max-width: 768px) {
-    padding: 2rem 0 0;
+    padding: 1rem 0 0;
   }
 `;
 
 export const Content = styled("p")`
   margin: 1.5rem 0 2rem 0;
+`;
+
+export const Content2 = styled("p")`
+  margin: 1rem 0 1rem 0;
+  font-size: 18px
 `;
 
 export const StyledRow = styled(Row)`
