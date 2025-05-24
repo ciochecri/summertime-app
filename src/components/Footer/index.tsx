@@ -60,8 +60,8 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Language>Indirizzo</Language>
-              <Para>A. S. D. H. C. Imola</Para>
-              <Para>Via Emilia, 116</Para>
+              <Para>A. S. D. Handball Club Imola</Para>
+              <Para>Via Provinciale Selice, 44</Para>
               <Para>40026 Imola (BO)</Para>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
